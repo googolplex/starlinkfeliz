@@ -1,0 +1,77 @@
+{
+  "capture_date": "2026-09-05",
+  "state": "working_after_firmware_recovery",
+  "privacy_note": "Curated diagnostic extract from the original debug export. Private identifiers and unrelated client/network details omitted.",
+  "dish": {
+    "hardwareVersion": "rev3_proto2",
+    "apiVersion": 43,
+    "softwareVersion": "2026.08.31.cr85832",
+    "softwarePartitionsEqual": false,
+    "bootcount": 817,
+    "uptimeS": 590,
+    "ethSpeedMbps": 1000,
+    "popPingDropRate": 0,
+    "popPingLatencyMs": 28.68413734436035,
+    "isSnrAboveNoiseFloor": true,
+    "rebootReason": 0,
+    "readyStates": {
+      "cady": true,
+      "scp": true,
+      "l1L2": true,
+      "xphy": true,
+      "aap": true,
+      "rf": true
+    },
+    "softwareUpdateStats": {
+      "softwareUpdateState": 1,
+      "softwareUpdateProgress": 1,
+      "updateRequiresReboot": false,
+      "rebootScheduledUtcTime": "0"
+    },
+    "gpsStats": {
+      "gpsValid": false,
+      "gpsSats": 0,
+      "noSatsAfterTtff": true,
+      "pntFilterConvergenceState": 2
+    },
+    "initializationDurationSeconds": {
+      "attitudeInitialization": 98,
+      "burstDetected": 32,
+      "ekfConverged": 127,
+      "firstCplane": 47,
+      "firstPopPing": 55,
+      "gpsValid": 0,
+      "initialNetworkEntry": 45,
+      "networkSchedule": 49,
+      "rfReady": 30,
+      "stableConnection": 171
+    },
+    "alerts": {
+      "thermalThrottle": false,
+      "thermalShutdown": false,
+      "slowEthernetSpeeds": false,
+      "slowEthernetSpeeds100": false,
+      "powerSupplyThermalThrottle": false,
+      "noEthernetLink": false
+    }
+  },
+  "router": {
+    "hardwareVersion": "v2",
+    "softwareVersion": "2026.08.27.mr84914",
+    "softwarePartitionsEqual": false,
+    "bootcount": 200,
+    "uptimeS": 1751,
+    "pingDropRate": 0,
+    "dishPingDropRate": 0,
+    "popPingDropRate": 0,
+    "alerts": {
+      "highCablePingDropRate": false,
+      "wanEthPoorConnection": false,
+      "poeOnDishUnreachable": false,
+      "poeFuseBlown": false,
+      "poeRouterOvercurrent": false,
+      "poeVinOvervoltage": false,
+      "poeVinUndervoltage": false
+    }
+  }
+}
