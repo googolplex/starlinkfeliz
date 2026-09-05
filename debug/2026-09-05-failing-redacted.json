@@ -1,0 +1,71 @@
+{
+  "capture_date": "2026-09-05",
+  "state": "failing_reboot_loop",
+  "privacy_note": "Curated diagnostic extract from the original debug export. Private identifiers and unrelated client/network details omitted.",
+  "dish": {
+    "hardwareVersion": "rev3_proto2",
+    "apiVersion": 42,
+    "softwareVersion": "2026.01.05.mr71198",
+    "softwarePartitionsEqual": false,
+    "bootcount": 499,
+    "uptimeS": 28,
+    "ethSpeedMbps": 1000,
+    "popPingDropRate": 1,
+    "popPingLatencyMs": -1,
+    "downlinkThroughputBps": 0,
+    "isSnrAboveNoiseFloor": false,
+    "rebootReason": 0,
+    "readyStates": {
+      "cady": true,
+      "scp": true,
+      "l1L2": true,
+      "xphy": true,
+      "aap": true,
+      "rf": false
+    },
+    "softwareUpdateStats": {
+      "softwareUpdateState": 1,
+      "softwareUpdateProgress": 0,
+      "updateRequiresReboot": false,
+      "rebootScheduledUtcTime": "0"
+    },
+    "gpsStats": {
+      "gpsValid": false,
+      "gpsSats": 0,
+      "noSatsAfterTtff": false
+    },
+    "initializationDurationSeconds": {
+      "firstCplane": -1,
+      "firstPopPing": -1,
+      "gpsValid": 0,
+      "initialNetworkEntry": 0,
+      "networkSchedule": 0,
+      "rfReady": 0,
+      "stableConnection": 0
+    },
+    "alerts": {
+      "thermalThrottle": false,
+      "thermalShutdown": false,
+      "slowEthernetSpeeds": false,
+      "slowEthernetSpeeds100": false,
+      "powerSupplyThermalThrottle": false,
+      "noEthernetLink": false
+    }
+  },
+  "router": {
+    "hardwareVersion": "v2",
+    "softwareVersion": "2026.08.27.mr84914",
+    "softwarePartitionsEqual": false,
+    "bootcount": 192,
+    "uptimeS": 5703,
+    "alerts": {
+      "highCablePingDropRate": false,
+      "wanEthPoorConnection": false,
+      "poeOnDishUnreachable": false,
+      "poeFuseBlown": false,
+      "poeRouterOvercurrent": false,
+      "poeVinOvervoltage": false,
+      "poeVinUndervoltage": false
+    }
+  }
+}
